@@ -19,7 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 20rem;
-  min-height: 90%;
+  min-height: 50%;
   background: hsl(244, 38%, 16%);
   border-radius: 10px;
   margin: 5rem auto;
@@ -89,7 +89,7 @@ p {
   display: none;
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1023px) {
   .container {
     flex-direction: row;
     width: 68rem;
@@ -106,6 +106,7 @@ p {
   p {
     width: 80%;
     align-self: flex-start;
+    letter-spacing: 0px;
   }
   .stats {
     display: flex;
