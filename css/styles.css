@@ -38,8 +38,6 @@ body {
 }
 
 .text {
-  /* display: flex;
-  flex-direction: column; */
   text-align: center;
   padding: 1.6rem;
 }
@@ -92,14 +90,14 @@ p {
   .container {
     flex-direction: row;
     width: 55rem;
-    min-height: 30%;
+    min-height: 25rem;
   }
   .text {
     text-align: left;
     padding-left: 4rem;
   }
   h1 {
-    margin: 1rem 6rem 1.5rem 0;
+    margin: 1.5rem 6rem 1.5rem 0;
     letter-spacing: 1px;
   }
   p {
@@ -134,7 +132,7 @@ p {
 @media screen and (min-width: 1150px) {
   .container {
     width: 68rem;
-    min-height: 45%;
+    min-height: 26rem;
   }
 
   h1 {
