@@ -40,7 +40,6 @@ body {
 .text {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   text-align: center;
   padding: 1.6rem;
@@ -100,7 +99,7 @@ p {
     padding-left: 4rem;
   }
   h1 {
-    margin: 0 6rem 1.5rem 0;
+    margin: 2.7rem 6rem 1.5rem 0;
     letter-spacing: 1px;
   }
   p {
