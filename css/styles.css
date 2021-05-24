@@ -73,7 +73,6 @@ p {
 .stats h2 {
   color: hsl(0, 0%, 100%);
   font-size: 1.5rem;
-  margin-bottom: 0.3rem;
 }
 .stats span {
   color: hsla(0, 0%, 100%, 0.75);
