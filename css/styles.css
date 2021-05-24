@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: hsl(233, 47%, 7%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 80%;
+  background: hsl(244, 38%, 16%);
+}
+
+.mobile-image {
+  width: 100%;
+}
+.overlay {
+  height: 100%;
+  width: 100%;
+  background: hsl(277, 64%, 61%);
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.desktop-image {
+  display: none;
+}
