@@ -135,6 +135,8 @@ p {
   }
 
   h1 {
+    width: 80%;
+    font-size: 2rem;
     margin-top: 2.5rem;
   }
 }
